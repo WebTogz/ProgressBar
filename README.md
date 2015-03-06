@@ -15,6 +15,8 @@ See example.py for more precisions!
 
 ```
 
+Also, there is a Pacman style... ;-)
+
 ##Contacts
 
 antonin[dot]carette[at]gmail[dot]com
