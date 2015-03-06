@@ -6,6 +6,7 @@ class ProgressBar:
     """
     Progress bar object
     This object is caracterized by a maximal value, the maximal value of the bar, and the title of the bar
+    Special joke (to archlinux users...) : PACMAN STYLE!!!
     """
     def __init__ (self, valmax, maxbar, title, pacman_style = False):
         if valmax <= 0:  
