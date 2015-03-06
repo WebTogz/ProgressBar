@@ -1,11 +1,9 @@
 # ProgressBar
 Simple Python progress bar
 
-##Simple utilisation
+##So simple!!!
 
-See example.py for more precisions!
-
-
+Ex:
 ```
 >>>import ProgressBar
 >>>import example
@@ -15,7 +13,11 @@ See example.py for more precisions!
 
 ```
 
-Also, there is a Pacman style... ;-)
+See example.py for more precisions!
+
+##Goodies
+
+ *  Pacman style... ;-)
 
 ##Contacts
 
