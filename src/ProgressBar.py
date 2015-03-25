@@ -49,5 +49,10 @@ class ProgressBar:
             if not self.pacman_icon_style:
                 self.progress_tip = '\033[1;33;40mc\033[0m'
             self.pacman_icon_style = not self.pacman_icon_style
+
+	if (val == self.valmax):
+		char_to_return = "\n"
+	else:
+		char_to_return = "\r"
   
-        print("{0} [{1}{2}{3}] {4}%".format(self.title, self.progress_before_tip * bar, self.progress_tip, self.progress_after_tip * mul_coef, perc), end="\r")
+        print("{0} [{1}{2}{3}] {4}%".format(self.title, self.progress_before_tip * bar, self.progress_tip, self.progress_after_tip * mul_coef, perc), end=char_to_return)
